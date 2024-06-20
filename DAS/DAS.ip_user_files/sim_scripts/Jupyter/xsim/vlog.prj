@@ -1,0 +1,28 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2023.2/data/xilinx_vip/include" --include "../../../../DAS.gen/sources_1/bd/Jupyter/ipshared/ec67/hdl" --include "../../../../DAS.gen/sources_1/bd/Jupyter/ipshared/6b2b/hdl" \
+"../../../bd/Jupyter/ip/Jupyter_processing_system7_0_1/sim/Jupyter_processing_system7_0_1.v" \
+"../../../bd/Jupyter/ip/Jupyter_xbar_0/sim/Jupyter_xbar_0.v" \
+"../../../bd/Jupyter/ip/Jupyter_main_0_0/sim/Jupyter_main_0_0.v" \
+"../../../bd/Jupyter/ip/Jupyter_AD7091R_0_0/sim/Jupyter_AD7091R_0_0.v" \
+"../../../bd/Jupyter/ip/Jupyter_fifo_generator_0_0/sim/Jupyter_fifo_generator_0_0.v" \
+"../../../bd/Jupyter/ip/Jupyter_dac_top_0_0/sim/Jupyter_dac_top_0_0.v" \
+"../../../bd/Jupyter/ip/Jupyter_edge_detector_0_0/sim/Jupyter_edge_detector_0_0.v" \
+"../../../bd/Jupyter/ip/Jupyter_AD7091R_1_0/sim/Jupyter_AD7091R_1_0.v" \
+"../../../bd/Jupyter/ip/Jupyter_main_1_0/sim/Jupyter_main_1_0.v" \
+"../../../bd/Jupyter/ip/Jupyter_fifo_generator_1_0/sim/Jupyter_fifo_generator_1_0.v" \
+"../../../bd/Jupyter/ip/Jupyter_dma_multiplexer_0_1/sim/Jupyter_dma_multiplexer_0_1.v" \
+"../../../bd/Jupyter/ip/Jupyter_AD7091R_2_0/sim/Jupyter_AD7091R_2_0.v" \
+"../../../bd/Jupyter/ip/Jupyter_AD7091R_3_0/sim/Jupyter_AD7091R_3_0.v" \
+"../../../bd/Jupyter/ip/Jupyter_main_2_0/sim/Jupyter_main_2_0.v" \
+"../../../bd/Jupyter/ip/Jupyter_main_3_0/sim/Jupyter_main_3_0.v" \
+"../../../bd/Jupyter/ip/Jupyter_fifo_generator_1_1/sim/Jupyter_fifo_generator_1_1.v" \
+"../../../bd/Jupyter/ip/Jupyter_fifo_generator_1_2/sim/Jupyter_fifo_generator_1_2.v" \
+"../../../bd/Jupyter/sim/Jupyter.v" \
+"../../../bd/Jupyter/ip/Jupyter_auto_pc_0/sim/Jupyter_auto_pc_0.v" \
+"../../../bd/Jupyter/ip/Jupyter_auto_pc_1/sim/Jupyter_auto_pc_1.v" \
+"../../../bd/Jupyter/ip/Jupyter_auto_ds_0/sim/Jupyter_auto_ds_0.v" \
+"../../../bd/Jupyter/ip/Jupyter_auto_pc_2/sim/Jupyter_auto_pc_2.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,106 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "Jupyter_AD7091R_2_0",
+    "cell_name": "AD7091R_2",
+    "component_reference": "xilinx.com:module_ref:AD7091R:1.0",
+    "ip_revision": "1",
+    "gen_directory": "../../../../../../DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_AD7091R_2_0",
+    "parameters": {
+      "component_parameters": {
+        "ADC_SW_RESET_STATE": [ { "value": "\"00000001\"", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "ADC_IDLE_STATE": [ { "value": "\"00000010\"", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "ADC_START_CNV_STATE": [ { "value": "\"00000100\"", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "ADC_WAIT_CNV_DONE_STATE": [ { "value": "\"00001000\"", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "ADC_WAIT_DATA_VALID_STATE": [ { "value": "\"00010000\"", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "ADC_READ_CNV_RESULT": [ { "value": "\"00100000\"", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "ADC_END_CNV_STATE": [ { "value": "\"01000000\"", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "ADC_DATAREADY_STATE": [ { "value": "\"10000000\"", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "FPGA_CLOCK_FREQ": [ { "value": "100", "resolve_type": "user", "format": "float", "usage": "all" } ],
+        "ADC_CYCLE_TIME": [ { "value": "1", "resolve_type": "user", "format": "float", "usage": "all" } ],
+        "ADC_CONVST_TIME": [ { "value": "0.10000000000000001", "resolve_type": "user", "format": "float", "usage": "all" } ],
+        "ADC_CONVERT_TIME": [ { "value": "0.56000000000000005", "resolve_type": "user", "format": "float", "usage": "all" } ],
+        "ADC_CYCLE_CNT": [ { "value": "99", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "ADC_CONVST_CNT": [ { "value": "9", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "ADC_CONVERT_CNT": [ { "value": "55", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "ADC_SCLK_PERIODS": [ { "value": "\"01101\"", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "ADC_RESET_SCLK_PERIODS": [ { "value": "\"0011\"", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "ADC_DATAREADY_WIDTH": [ { "value": "\"00001\"", "resolve_type": "user", "format": "bitString", "usage": "all" } ],
+        "Component_Name": [ { "value": "Jupyter_AD7091R_2_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "model_parameters": {
+        "ADC_SW_RESET_STATE": [ { "value": "\"00000001\"", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "ADC_IDLE_STATE": [ { "value": "\"00000010\"", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "ADC_START_CNV_STATE": [ { "value": "\"00000100\"", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "ADC_WAIT_CNV_DONE_STATE": [ { "value": "\"00001000\"", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "ADC_WAIT_DATA_VALID_STATE": [ { "value": "\"00010000\"", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "ADC_READ_CNV_RESULT": [ { "value": "\"00100000\"", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "ADC_END_CNV_STATE": [ { "value": "\"01000000\"", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "ADC_DATAREADY_STATE": [ { "value": "\"10000000\"", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "FPGA_CLOCK_FREQ": [ { "value": "100", "resolve_type": "generated", "format": "float", "usage": "all" } ],
+        "ADC_CYCLE_TIME": [ { "value": "1", "resolve_type": "generated", "format": "float", "usage": "all" } ],
+        "ADC_CONVST_TIME": [ { "value": "0.10000000000000001", "resolve_type": "generated", "format": "float", "usage": "all" } ],
+        "ADC_CONVERT_TIME": [ { "value": "0.56000000000000005", "resolve_type": "generated", "format": "float", "usage": "all" } ],
+        "ADC_CYCLE_CNT": [ { "value": "99", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "ADC_CONVST_CNT": [ { "value": "9", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "ADC_CONVERT_CNT": [ { "value": "55", "resolve_type": "generated", "format": "long", "usage": "all" } ],
+        "ADC_SCLK_PERIODS": [ { "value": "\"01101\"", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "ADC_RESET_SCLK_PERIODS": [ { "value": "\"0011\"", "resolve_type": "generated", "format": "bitString", "usage": "all" } ],
+        "ADC_DATAREADY_WIDTH": [ { "value": "\"00001\"", "resolve_type": "generated", "format": "bitString", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "zynq" } ],
+        "BASE_BOARD_PART": [ { "value": "digilentinc.com:zedboard:part0:1.0" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7z020" } ],
+        "PACKAGE": [ { "value": "clg484" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "1" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_AD7091R_2_0" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2023.2" } ],
+        "SYNTHESISFLOW": [ { "value": "OOC_HIERARCHICAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "fpga_clk_i": [ { "direction": "in" } ],
+        "adc_clk_i": [ { "direction": "in" } ],
+        "reset_n_i": [ { "direction": "in" } ],
+        "data_o": [ { "direction": "out", "size_left": "15", "size_right": "0" } ],
+        "data_rd_ready_o": [ { "direction": "out" } ],
+        "adc_sdata_i": [ { "direction": "in" } ],
+        "adc_sdata_t": [ { "direction": "out" } ],
+        "adc_sclk_o": [ { "direction": "out" } ],
+        "adc_cs_n_o": [ { "direction": "out" } ],
+        "adc_convst_n_o": [ { "direction": "out" } ],
+        "sclk_clk_cnt_db": [ { "direction": "out", "size_left": "4", "size_right": "0" } ],
+        "adc_state_db": [ { "direction": "out", "size_left": "6", "size_right": "0" } ]
+      },
+      "interfaces": {
+        "reset_n_i": {
+          "vlnv": "xilinx.com:signal:reset:1.0",
+          "abstraction_type": "xilinx.com:signal:reset_rtl:1.0",
+          "mode": "slave",
+          "parameters": {
+            "POLARITY": [ { "value": "ACTIVE_LOW", "value_src": "constant_prop", "value_permission": "bd_and_user", "resolve_type": "generated", "is_ips_inferred": true, "is_static_object": false } ],
+            "INSERT_VIP": [ { "value": "0", "resolve_type": "user", "format": "long", "usage": "simulation.rtl", "is_ips_inferred": true, "is_static_object": false } ]
+          },
+          "port_maps": {
+            "RST": [ { "physical_name": "reset_n_i" } ]
+          }
+        }
+      }
+    }
+  }
+}

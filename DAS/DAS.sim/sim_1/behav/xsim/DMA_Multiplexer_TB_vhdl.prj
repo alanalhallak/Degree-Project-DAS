@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../DAS.srcs/sources_1/new/dma_multiplexer.vhd" \
+"../../../../DAS.srcs/sim_1/imports/vivado/dma_multiplexer_tb.vhd" \
+
+# Do not sort compile order
+nosort

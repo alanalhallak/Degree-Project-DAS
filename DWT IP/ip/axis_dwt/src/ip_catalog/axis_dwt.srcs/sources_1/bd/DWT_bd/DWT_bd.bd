@@ -1,0 +1,105 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x9B87410A3852133D",
+      "design_src": "SYSGEN",
+      "device": "xc7z020clg484-1",
+      "gen_directory": "../../../../axis_dwt.gen/sources_1/bd/DWT_bd",
+      "name": "DWT_bd",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "DWT_1": ""
+    },
+    "ports": {
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "DWT_bd_clk",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "signal_in": {
+        "type": "data",
+        "direction": "I",
+        "left": "17",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "signal_out": {
+        "type": "data",
+        "direction": "O",
+        "left": "17",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": [
+              "xilinx.com:interface:datatypes:1.0 {",
+              "DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {}",
+              "maximum {}} value 18} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} real {fixed {fractwidth {attribs {resolve_type immediate dependency {} format",
+              "long minimum {} maximum {}} value 16} signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value true}}}}}",
+              "}"
+            ],
+            "value_src": "const_prop"
+          }
+        }
+      }
+    },
+    "components": {
+      "DWT_1": {
+        "vlnv": "User_Company:VMC:DWT:1.0",
+        "ip_revision": "348343851",
+        "xci_name": "DWT_bd_DWT_1_0",
+        "xci_path": "ip\\DWT_bd_DWT_1_0\\DWT_bd_DWT_1_0.xci",
+        "inst_hier_path": "DWT_1"
+      }
+    },
+    "nets": {
+      "DWT_1_signal_out": {
+        "ports": [
+          "DWT_1/signal_out",
+          "signal_out"
+        ]
+      },
+      "clk_1": {
+        "ports": [
+          "clk",
+          "DWT_1/clk"
+        ]
+      },
+      "signal_in_1": {
+        "ports": [
+          "signal_in",
+          "DWT_1/signal_in"
+        ]
+      }
+    }
+  }
+}

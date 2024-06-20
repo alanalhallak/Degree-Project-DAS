@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu May  9 15:54:40 2024
+# Process ID: 20216
+# Current directory: D:/Thesis/DAS_v2/DAS/DAS.runs/Jupyter_fifo_generator_1_2_synth_1
+# Command line: vivado.exe -log Jupyter_fifo_generator_1_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Jupyter_fifo_generator_1_2.tcl
+# Log file: D:/Thesis/DAS_v2/DAS/DAS.runs/Jupyter_fifo_generator_1_2_synth_1/Jupyter_fifo_generator_1_2.vds
+# Journal file: D:/Thesis/DAS_v2/DAS/DAS.runs/Jupyter_fifo_generator_1_2_synth_1\vivado.jou
+# Running On: Predator-Offset, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 24, Host memory: 68475 MB
+#-----------------------------------------------------------
+source Jupyter_fifo_generator_1_2.tcl -notrace
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Jupyter_fifo_generator_1_2
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry c66f063f9d6c2128 to dir: D:/Thesis/DAS_v2/DAS/DAS.runs/Jupyter_fifo_generator_1_2_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/c/6/c66f063f9d6c2128/Jupyter_fifo_generator_0_0.dcp to D:/Thesis/DAS_v2/DAS/DAS.runs/Jupyter_fifo_generator_1_2_synth_1/Jupyter_fifo_generator_1_2.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/c/6/c66f063f9d6c2128/Jupyter_fifo_generator_0_0_sim_netlist.v to D:/Thesis/DAS_v2/DAS/DAS.runs/Jupyter_fifo_generator_1_2_synth_1/Jupyter_fifo_generator_1_2_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/c/6/c66f063f9d6c2128/Jupyter_fifo_generator_0_0_sim_netlist.vhdl to D:/Thesis/DAS_v2/DAS/DAS.runs/Jupyter_fifo_generator_1_2_synth_1/Jupyter_fifo_generator_1_2_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/c/6/c66f063f9d6c2128/Jupyter_fifo_generator_0_0_stub.v to D:/Thesis/DAS_v2/DAS/DAS.runs/Jupyter_fifo_generator_1_2_synth_1/Jupyter_fifo_generator_1_2_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/c/6/c66f063f9d6c2128/Jupyter_fifo_generator_0_0_stub.vhdl to D:/Thesis/DAS_v2/DAS/DAS.runs/Jupyter_fifo_generator_1_2_synth_1/Jupyter_fifo_generator_1_2_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP Jupyter_fifo_generator_1_2, cache-ID = c66f063f9d6c2128.
+INFO: [Common 17-206] Exiting Vivado at Thu May  9 15:54:46 2024...

@@ -1,0 +1,76 @@
+set_property PACKAGE_PIN T22 [get_ports {gpio_io_o_0[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports {gpio_io_o_0[0]}]
+
+set_property IOSTANDARD LVCMOS33 [get_ports {ss_n_0[0]}]
+set_property IOSTANDARD LVCMOS33 [get_ports ldac_n_0]
+set_property IOSTANDARD LVCMOS33 [get_ports mosi_0]
+set_property IOSTANDARD LVCMOS33 [get_ports sclk_0]
+
+set_property PACKAGE_PIN AA11 [get_ports mosi_0]
+set_property PACKAGE_PIN Y10 [get_ports ldac_n_0]
+set_property PACKAGE_PIN AA9 [get_ports sclk_0]
+set_property PACKAGE_PIN Y11 [get_ports {ss_n_0[0]}]
+
+
+
+
+
+set_property IOSTANDARD LVCMOS33 [get_ports adc_convst_n_o_0]
+set_property IOSTANDARD LVCMOS33 [get_ports adc_convst_n_o_1]
+set_property IOSTANDARD LVCMOS33 [get_ports adc_convst_n_o_2]
+set_property IOSTANDARD LVCMOS33 [get_ports adc_convst_n_o_3]
+set_property IOSTANDARD LVCMOS33 [get_ports adc_cs_n_o_0]
+set_property IOSTANDARD LVCMOS33 [get_ports adc_cs_n_o_1]
+set_property IOSTANDARD LVCMOS33 [get_ports adc_cs_n_o_2]
+set_property IOSTANDARD LVCMOS33 [get_ports adc_cs_n_o_3]
+set_property IOSTANDARD LVCMOS33 [get_ports adc_sclk_o_0]
+set_property IOSTANDARD LVCMOS33 [get_ports adc_sclk_o_1]
+set_property IOSTANDARD LVCMOS33 [get_ports adc_sclk_o_2]
+set_property IOSTANDARD LVCMOS33 [get_ports adc_sclk_o_3]
+set_property IOSTANDARD LVCMOS33 [get_ports adc_sdata_0]
+set_property IOSTANDARD LVCMOS33 [get_ports adc_sdata_1]
+set_property IOSTANDARD LVCMOS33 [get_ports adc_sdata_2]
+set_property IOSTANDARD LVCMOS33 [get_ports adc_sdata_3]
+
+set_property PACKAGE_PIN W12 [get_ports adc_cs_n_o_0]
+set_property PACKAGE_PIN AB7 [get_ports adc_cs_n_o_1]
+set_property PACKAGE_PIN R6 [get_ports adc_cs_n_o_2]
+set_property PACKAGE_PIN V7 [get_ports adc_cs_n_o_3]
+
+set_property PACKAGE_PIN V10 [get_ports adc_sdata_0]
+set_property PACKAGE_PIN AB6 [get_ports adc_sdata_1]
+set_property PACKAGE_PIN T6 [get_ports adc_sdata_2]
+set_property PACKAGE_PIN V5 [get_ports adc_sdata_3]
+
+set_property PACKAGE_PIN W8 [get_ports adc_sclk_o_0]
+set_property PACKAGE_PIN Y4 [get_ports adc_sclk_o_1]
+set_property PACKAGE_PIN T4 [get_ports adc_sclk_o_2]
+set_property PACKAGE_PIN V4 [get_ports adc_sclk_o_3]
+
+set_property PACKAGE_PIN V9 [get_ports adc_convst_n_o_0]
+set_property PACKAGE_PIN AA4 [get_ports adc_convst_n_o_1]
+set_property PACKAGE_PIN U4 [get_ports adc_convst_n_o_2]
+set_property PACKAGE_PIN U6 [get_ports adc_convst_n_o_3]
+
+create_debug_core u_ila_0 ila
+set_property ALL_PROBE_SAME_MU true [get_debug_cores u_ila_0]
+set_property ALL_PROBE_SAME_MU_CNT 1 [get_debug_cores u_ila_0]
+set_property C_ADV_TRIGGER false [get_debug_cores u_ila_0]
+set_property C_DATA_DEPTH 131072 [get_debug_cores u_ila_0]
+set_property C_EN_STRG_QUAL false [get_debug_cores u_ila_0]
+set_property C_INPUT_PIPE_STAGES 0 [get_debug_cores u_ila_0]
+set_property C_TRIGIN_EN false [get_debug_cores u_ila_0]
+set_property C_TRIGOUT_EN false [get_debug_cores u_ila_0]
+set_property port_width 1 [get_debug_ports u_ila_0/clk]
+connect_debug_port u_ila_0/clk [get_nets [list Jupyter_i/processing_system7_0/inst/FCLK_CLK0]]
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe0]
+set_property port_width 3 [get_debug_ports u_ila_0/probe0]
+connect_debug_port u_ila_0/probe0 [get_nets [list {Jupyter_i/dma_multiplexer_0/inst/state[0]} {Jupyter_i/dma_multiplexer_0/inst/state[1]} {Jupyter_i/dma_multiplexer_0/inst/state[2]}]]
+create_debug_port u_ila_0 probe
+set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe1]
+set_property port_width 2 [get_debug_ports u_ila_0/probe1]
+connect_debug_port u_ila_0/probe1 [get_nets [list {Jupyter_i/dma_multiplexer_0/inst/axi_stream_state[0]} {Jupyter_i/dma_multiplexer_0/inst/axi_stream_state[1]}]]
+set_property C_CLK_INPUT_FREQ_HZ 300000000 [get_debug_cores dbg_hub]
+set_property C_ENABLE_CLK_DIVIDER false [get_debug_cores dbg_hub]
+set_property C_USER_SCAN_CHAIN 1 [get_debug_cores dbg_hub]
+connect_debug_port dbg_hub/clk [get_nets clk]

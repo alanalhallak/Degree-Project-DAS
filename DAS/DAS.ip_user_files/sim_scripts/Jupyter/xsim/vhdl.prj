@@ -1,0 +1,7 @@
+vhdl xil_defaultlib  \
+"../../../bd/Jupyter/ip/Jupyter_rst_ps7_0_100M_3/sim/Jupyter_rst_ps7_0_100M_3.vhd" \
+"../../../bd/Jupyter/ip/Jupyter_axi_dma_0_1/sim/Jupyter_axi_dma_0_1.vhd" \
+"../../../bd/Jupyter/ip/Jupyter_axi_gpio_0_0/sim/Jupyter_axi_gpio_0_0.vhd" \
+
+# Do not sort compile order
+nosort

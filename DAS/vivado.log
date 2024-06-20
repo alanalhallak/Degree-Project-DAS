@@ -1,0 +1,499 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Jun  6 15:22:33 2024
+# Process ID: 21232
+# Current directory: C:/Users/SHMLab/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23276
+# Log file: C:/Users/SHMLab/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/SHMLab/AppData/Roaming/Xilinx/Vivado\vivado.jou
+# Running On: Predator-Offset, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 24, Host memory: 68475 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project D:/Thesis/DAS_v2/DAS/DAS.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+open_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 1502.344 ; gain = 84.715
+update_compile_order -fileset sources_1
+update_module_reference {Jupyter_main_0_0 Jupyter_main_1_0 Jupyter_main_2_0 Jupyter_main_3_0}
+INFO: [IP_Flow 19-5107] Inferred bus interface 'dma_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_m_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_s_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_resetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'fifo_resetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'dma_axis'.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'dma_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_m_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_s_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_resetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'fifo_resetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'dma_axis'.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'dma_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_m_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_s_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_resetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'fifo_resetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'dma_axis'.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'dma_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_m_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_s_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_resetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'fifo_resetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'dma_axis'.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'dma_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_m_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_s_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_resetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'fifo_resetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'dma_axis'.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+Reading block design file <D:/Thesis/DAS_v2/DAS/DAS.srcs/sources_1/bd/Jupyter/Jupyter.bd>...
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding component instance block -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - ps7_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding component instance block -- xilinx.com:module_ref:main:1.0 - main_0
+Adding component instance block -- xilinx.com:module_ref:AD7091R:1.0 - AD7091R_0
+Adding component instance block -- xilinx.com:ip:fifo_generator:13.2 - fifo_generator_0
+INFO: [xilinx.com:ip:fifo_generator:13.2-5968] /fifo_generator_0Executing the post_config_ip from bd
+Adding component instance block -- xilinx.com:module_ref:dac_top:1.0 - dac_top_0
+Adding component instance block -- xilinx.com:module_ref:edge_detector:1.0 - edge_detector_0
+Adding component instance block -- xilinx.com:module_ref:AD7091R:1.0 - AD7091R_1
+Adding component instance block -- xilinx.com:module_ref:main:1.0 - main_1
+Adding component instance block -- xilinx.com:ip:fifo_generator:13.2 - fifo_generator_1
+INFO: [xilinx.com:ip:fifo_generator:13.2-5968] /fifo_generator_1Executing the post_config_ip from bd
+Adding component instance block -- xilinx.com:module_ref:dma_multiplexer:1.0 - dma_multiplexer_0
+Adding component instance block -- xilinx.com:module_ref:AD7091R:1.0 - AD7091R_2
+Adding component instance block -- xilinx.com:module_ref:AD7091R:1.0 - AD7091R_3
+Adding component instance block -- xilinx.com:module_ref:main:1.0 - main_2
+Adding component instance block -- xilinx.com:module_ref:main:1.0 - main_3
+Adding component instance block -- xilinx.com:ip:fifo_generator:13.2 - fifo_generator_2
+INFO: [xilinx.com:ip:fifo_generator:13.2-5968] /fifo_generator_2Executing the post_config_ip from bd
+Adding component instance block -- xilinx.com:ip:fifo_generator:13.2 - fifo_generator_3
+INFO: [xilinx.com:ip:fifo_generator:13.2-5968] /fifo_generator_3Executing the post_config_ip from bd
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - axi_interconnect_0
+Adding component instance block -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <Jupyter> from block design file <D:/Thesis/DAS_v2/DAS/DAS.srcs/sources_1/bd/Jupyter/Jupyter.bd>
+Upgrading 'D:/Thesis/DAS_v2/DAS/DAS.srcs/sources_1/bd/Jupyter/Jupyter.bd'
+INFO: [IP_Flow 19-3420] Updated Jupyter_main_0_0 to use current project options
+INFO: [IP_Flow 19-3420] Updated Jupyter_main_1_0 to use current project options
+INFO: [IP_Flow 19-3420] Updated Jupyter_main_2_0 to use current project options
+INFO: [IP_Flow 19-3420] Updated Jupyter_main_3_0 to use current project options
+Wrote  : <D:\Thesis\DAS_v2\DAS\DAS.srcs\sources_1\bd\Jupyter\Jupyter.bd> 
+Wrote  : <D:/Thesis/DAS_v2/DAS/DAS.srcs/sources_1/bd/Jupyter/ui/bd_14e6d2cd.ui> 
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/0e59/hdl/ila_v6_2_syn_rfs.v' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/0e59/hdl/verilog/ila_v6_2_14_ila_in.vh' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/0e59/hdl/verilog/ila_v6_2_14_ila_lib_fn.vh' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/0e59/hdl/verilog/ila_v6_2_14_ila_lparam.vh' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/0e59/hdl/verilog/ila_v6_2_14_ila_param.vh' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/0e59/hdl/verilog/ila_v6_2_14_ila_ver.vh' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/1665/hdl/fifo_generator_v13_1_vhsyn_rfs.vhd' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/1a4e/hdl/blk_mem_gen_v8_3_vhsyn_rfs.vhd' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/a29c/hdl/verilog/xsdbs_v1_0_3_i2x.vh' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/a29c/hdl/verilog/xsdbs_v1_0_3_in.vh' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/a29c/hdl/xsdbs_v1_0_vl_rfs.v' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/ae90/hdl/verilog/xsdbm_v3_0_0_bs.vh' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/ae90/hdl/verilog/xsdbm_v3_0_0_bsid_ports.vh' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/ae90/hdl/verilog/xsdbm_v3_0_0_bsid_vec_ports.vh' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/ae90/hdl/verilog/xsdbm_v3_0_0_bs_core.vh' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/ae90/hdl/verilog/xsdbm_v3_0_0_bs_core_ext.vh' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/ae90/hdl/verilog/xsdbm_v3_0_0_bs_core_vec.vh' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/ae90/hdl/verilog/xsdbm_v3_0_0_bs_ext.vh' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/ae90/hdl/verilog/xsdbm_v3_0_0_bs_ports.vh' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/ae90/hdl/verilog/xsdbm_v3_0_0_bs_vec.vh' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/ae90/hdl/verilog/xsdbm_v3_0_0_i2x.vh' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/ae90/hdl/verilog/xsdbm_v3_0_0_icn.vh' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/ae90/hdl/verilog/xsdbm_v3_0_0_id_map.vh' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/ae90/hdl/verilog/xsdbm_v3_0_0_id_vec_map.vh' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/ae90/hdl/verilog/xsdbm_v3_0_0_in.vh' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/ae90/hdl/verilog/xsdbm_v3_0_0_sl_prt_map.vh' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/ae90/hdl/xsdbm_v3_0_vl_rfs.v' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/e2ba/hdl/ltlib_v1_0_vl_rfs.v' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/e2ba/hdl/verilog/ltlib_v1_0_1_lib_fn.vh' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/e2ba/hdl/verilog/ltlib_v1_0_1_ver.vh' is not registered in generated file cache.
+WARNING: [IP_Flow 19-11785] File 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ipshared/e87a/hdl/gigantic_mux_v1_0_cntr.v' is not registered in generated file cache.
+upgrade_ip: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1848.066 ; gain = 259.188
+update_module_reference: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1848.066 ; gain = 259.188
+reset_run synth_1
+INFO: [Project 1-1161] Replacing file D:/Thesis/DAS_v2/DAS/DAS.srcs/utils_1/imports/synth_1/Jupyter_wrapper.dcp with file D:/Thesis/DAS_v2/DAS/DAS.runs/synth_1/Jupyter_wrapper.dcp
+launch_runs impl_1 -to_step write_bitstream -jobs 32
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Thesis\DAS_v2\DAS\DAS.srcs\sources_1\new\dma_multiplexer.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Thesis\DAS_v2\DAS\DAS.srcs\sources_1\imports\sources_1\new\main.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+CRITICAL WARNING: [BD 41-1347] Reset pin /fifo_generator_0/s_aresetn (associated clock /fifo_generator_0/s_aclk) is connected to asynchronous reset source /main_0/fifo_resetn.
+This may prevent design from meeting timing. Instead it should be connected to reset source /rst_ps7_0_100M/peripheral_aresetn.
+CRITICAL WARNING: [BD 41-1347] Reset pin /fifo_generator_1/s_aresetn (associated clock /fifo_generator_1/s_aclk) is connected to asynchronous reset source /main_1/fifo_resetn.
+This may prevent design from meeting timing. Instead it should be connected to reset source /rst_ps7_0_100M/peripheral_aresetn.
+CRITICAL WARNING: [BD 41-1347] Reset pin /fifo_generator_2/s_aresetn (associated clock /fifo_generator_2/s_aclk) is connected to asynchronous reset source /main_2/fifo_resetn.
+This may prevent design from meeting timing. Instead it should be connected to reset source /rst_ps7_0_100M/peripheral_aresetn.
+CRITICAL WARNING: [BD 41-1347] Reset pin /fifo_generator_3/s_aresetn (associated clock /fifo_generator_3/s_aclk) is connected to asynchronous reset source /main_3/fifo_resetn.
+This may prevent design from meeting timing. Instead it should be connected to reset source /rst_ps7_0_100M/peripheral_aresetn.
+Wrote  : <D:\Thesis\DAS_v2\DAS\DAS.srcs\sources_1\bd\Jupyter\Jupyter.bd> 
+Wrote  : <D:/Thesis/DAS_v2/DAS/DAS.srcs/sources_1/bd/Jupyter/ui/bd_14e6d2cd.ui> 
+Verilog Output written to : d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/synth/Jupyter.v
+Verilog Output written to : d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/sim/Jupyter.v
+Verilog Output written to : d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/hdl/Jupyter_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block main_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block main_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block main_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block main_3 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_0/Jupyter_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_1/Jupyter_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s01_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_ds_0/Jupyter_auto_ds_0_ooc.xdc'
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_ds .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_2/Jupyter_auto_pc_2_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_pc .
+Exporting to file d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/hw_handoff/Jupyter.hwh
+Generated Hardware Definition File d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/synth/Jupyter.hwdef
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP Jupyter_auto_ds_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP Jupyter_auto_pc_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP Jupyter_auto_pc_1
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP Jupyter_auto_pc_2
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP Jupyter_main_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP Jupyter_main_1_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP Jupyter_main_2_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP Jupyter_main_3_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Jupyter_auto_ds_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 525ce491e0233e4c to dir: d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_ds_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/5/2/525ce491e0233e4c/Jupyter_auto_ds_0.dcp to d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_ds_0/Jupyter_auto_ds_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_ds_0/Jupyter_auto_ds_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/5/2/525ce491e0233e4c/Jupyter_auto_ds_0_sim_netlist.v to d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_ds_0/Jupyter_auto_ds_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_ds_0/Jupyter_auto_ds_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/5/2/525ce491e0233e4c/Jupyter_auto_ds_0_sim_netlist.vhdl to d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_ds_0/Jupyter_auto_ds_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_ds_0/Jupyter_auto_ds_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/5/2/525ce491e0233e4c/Jupyter_auto_ds_0_stub.v to d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_ds_0/Jupyter_auto_ds_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_ds_0/Jupyter_auto_ds_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/5/2/525ce491e0233e4c/Jupyter_auto_ds_0_stub.vhdl to d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_ds_0/Jupyter_auto_ds_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_ds_0/Jupyter_auto_ds_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Jupyter_auto_ds_0, cache-ID = 525ce491e0233e4c; cache size = 78.283 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Jupyter_auto_pc_0
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 394121585f83978d to dir: d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_0
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/3/9/394121585f83978d/Jupyter_auto_pc_0.dcp to d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_0/Jupyter_auto_pc_0.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_0/Jupyter_auto_pc_0.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/3/9/394121585f83978d/Jupyter_auto_pc_0_sim_netlist.v to d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_0/Jupyter_auto_pc_0_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_0/Jupyter_auto_pc_0_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/3/9/394121585f83978d/Jupyter_auto_pc_0_sim_netlist.vhdl to d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_0/Jupyter_auto_pc_0_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_0/Jupyter_auto_pc_0_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/3/9/394121585f83978d/Jupyter_auto_pc_0_stub.v to d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_0/Jupyter_auto_pc_0_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_0/Jupyter_auto_pc_0_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/3/9/394121585f83978d/Jupyter_auto_pc_0_stub.vhdl to d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_0/Jupyter_auto_pc_0_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_0/Jupyter_auto_pc_0_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Jupyter_auto_pc_0, cache-ID = 394121585f83978d; cache size = 78.283 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Jupyter_auto_pc_1
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 394121585f83978d to dir: d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/3/9/394121585f83978d/Jupyter_auto_pc_0.dcp to d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_1/Jupyter_auto_pc_1.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_1/Jupyter_auto_pc_1.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/3/9/394121585f83978d/Jupyter_auto_pc_0_sim_netlist.v to d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_1/Jupyter_auto_pc_1_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_1/Jupyter_auto_pc_1_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/3/9/394121585f83978d/Jupyter_auto_pc_0_sim_netlist.vhdl to d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_1/Jupyter_auto_pc_1_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_1/Jupyter_auto_pc_1_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/3/9/394121585f83978d/Jupyter_auto_pc_0_stub.v to d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_1/Jupyter_auto_pc_1_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_1/Jupyter_auto_pc_1_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/3/9/394121585f83978d/Jupyter_auto_pc_0_stub.vhdl to d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_1/Jupyter_auto_pc_1_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_1/Jupyter_auto_pc_1_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Jupyter_auto_pc_1, cache-ID = 394121585f83978d; cache size = 78.283 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Jupyter_auto_pc_2
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 3e18b9399c7cdf2b to dir: d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_2
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/3/e/3e18b9399c7cdf2b/Jupyter_auto_pc_2.dcp to d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_2/Jupyter_auto_pc_2.dcp.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_2/Jupyter_auto_pc_2.dcp
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/3/e/3e18b9399c7cdf2b/Jupyter_auto_pc_2_sim_netlist.v to d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_2/Jupyter_auto_pc_2_sim_netlist.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_2/Jupyter_auto_pc_2_sim_netlist.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/3/e/3e18b9399c7cdf2b/Jupyter_auto_pc_2_sim_netlist.vhdl to d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_2/Jupyter_auto_pc_2_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_2/Jupyter_auto_pc_2_sim_netlist.vhdl
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/3/e/3e18b9399c7cdf2b/Jupyter_auto_pc_2_stub.v to d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_2/Jupyter_auto_pc_2_stub.v.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_2/Jupyter_auto_pc_2_stub.v
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file d:/Thesis/DAS_v2/DAS/DAS.cache/ip/2023.2/3/e/3e18b9399c7cdf2b/Jupyter_auto_pc_2_stub.vhdl to d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_2/Jupyter_auto_pc_2_stub.vhdl.
+INFO: [IP_Flow 19-6926] IPCACHE: added file to list for BOM: d:/Thesis/DAS_v2/DAS/DAS.gen/sources_1/bd/Jupyter/ip/Jupyter_auto_pc_2/Jupyter_auto_pc_2_stub.vhdl
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP Jupyter_auto_pc_2, cache-ID = 3e18b9399c7cdf2b; cache size = 78.283 MB.
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Jupyter_main_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Jupyter_main_1_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Jupyter_main_2_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Jupyter_main_3_0
+ERROR: [Vivado 12-4756] Launch of runs aborted due to earlier errors while preparing sub-designs for run execution.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Thesis\DAS_v2\DAS\DAS.srcs\sources_1\new\dma_multiplexer.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Thesis\DAS_v2\DAS\DAS.srcs\sources_1\imports\sources_1\new\main.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+launch_runs impl_1 -to_step write_bitstream -jobs 32
+INFO: [IP_Flow 19-6930] IPCACHE: runCacheChecks() number of threads = 8
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP Jupyter_main_0_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP Jupyter_main_1_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP Jupyter_main_2_0
+INFO: [IP_Flow 19-6921] IPCACHE: Adding cache check func to thread queue for IP Jupyter_main_3_0
+INFO: [IP_Flow 19-8020] IPCACHE: runCacheChecks() calling threadPool finishWork()
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Jupyter_main_0_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Jupyter_main_1_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Jupyter_main_2_0
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: Jupyter_main_3_0
+[Thu Jun  6 15:29:11 2024] Launched Jupyter_main_0_0_synth_1, Jupyter_main_1_0_synth_1, Jupyter_main_2_0_synth_1, Jupyter_main_3_0_synth_1, synth_1...
+Run output will be captured here:
+Jupyter_main_0_0_synth_1: D:/Thesis/DAS_v2/DAS/DAS.runs/Jupyter_main_0_0_synth_1/runme.log
+Jupyter_main_1_0_synth_1: D:/Thesis/DAS_v2/DAS/DAS.runs/Jupyter_main_1_0_synth_1/runme.log
+Jupyter_main_2_0_synth_1: D:/Thesis/DAS_v2/DAS/DAS.runs/Jupyter_main_2_0_synth_1/runme.log
+Jupyter_main_3_0_synth_1: D:/Thesis/DAS_v2/DAS/DAS.runs/Jupyter_main_3_0_synth_1/runme.log
+synth_1: D:/Thesis/DAS_v2/DAS/DAS.runs/synth_1/runme.log
+[Thu Jun  6 15:29:11 2024] Launched impl_1...
+Run output will be captured here: D:/Thesis/DAS_v2/DAS/DAS.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Thesis\DAS_v2\DAS\DAS.srcs\sources_1\new\dma_multiplexer.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Thesis\DAS_v2\DAS\DAS.srcs\sources_1\imports\sources_1\new\main.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+write_hw_platform -fixed -include_bit -force -file D:/Thesis/DAS_v2/DAS/das_june6.xsa
+INFO: [Project 1-1918] Creating Hardware Platform: D:/Thesis/DAS_v2/DAS/das_june6.xsa ...
+INFO: [Project 1-1943] The Hardware Platform can be used for Hardware
+INFO: [Project 1-1941] Successfully created Hardware Platform: D:/Thesis/DAS_v2/DAS/das_june6.xsa
+INFO: [Hsi 55-2053] elapsed time for repository (C:/Xilinx/Vivado/2023.2/data/embeddedsw) loading 0 seconds
+archive_project {C:/Users/SHMLab/OneDrive - KTH/thesis/vivado/DAS_june6.xpr.zip} -temp_dir C:/Users/SHMLab/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-21232-Predator-Offset -force -include_config_settings
+INFO: [Coretcl 2-137] starting archive...
+INFO: [Coretcl 2-1499] Saving project copy to temporary location 'C:/Users/SHMLab/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-21232-Predator-Offset' for archiving project
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Thesis\DAS_v2\DAS\DAS.srcs\sources_1\new\dma_multiplexer.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Thesis\DAS_v2\DAS\DAS.srcs\sources_1\imports\sources_1\new\main.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.2/data/ip'.
+INFO: [Coretcl 2-1211] Creating project copy for archival...
+INFO: [ProjectBase 1-495] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience any problem with archiving the project, please consider setting environment variable $TEMP to a shorter path.
+Current project path is 'C:/Users/SHMLab/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-21232-Predator-Offset/PrjAr/_X_'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is C:/Users/SHMLab/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-21232-Predator-Offset/PrjAr/_X_/DAS.cache/ip 
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n_i' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "((spirit:decode(id('MODELPARAM_VALUE.FPGA_CLOCK_FREQ')) * spirit:decode(id('MODELPARAM_VALUE.ADC_CYCLE_TIME'))) - 1)" into user parameter "ADC_CYCLE_CNT".
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "((spirit:decode(id('MODELPARAM_VALUE.FPGA_CLOCK_FREQ')) * spirit:decode(id('MODELPARAM_VALUE.ADC_CONVST_TIME'))) - 1)" into user parameter "ADC_CONVST_CNT".
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "((spirit:decode(id('MODELPARAM_VALUE.FPGA_CLOCK_FREQ')) * spirit:decode(id('MODELPARAM_VALUE.ADC_CONVERT_TIME'))) - 1)" into user parameter "ADC_CONVERT_CNT".
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n_i' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "((spirit:decode(id('MODELPARAM_VALUE.FPGA_CLOCK_FREQ')) * spirit:decode(id('MODELPARAM_VALUE.ADC_CYCLE_TIME'))) - 1)" into user parameter "ADC_CYCLE_CNT".
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "((spirit:decode(id('MODELPARAM_VALUE.FPGA_CLOCK_FREQ')) * spirit:decode(id('MODELPARAM_VALUE.ADC_CONVST_TIME'))) - 1)" into user parameter "ADC_CONVST_CNT".
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "((spirit:decode(id('MODELPARAM_VALUE.FPGA_CLOCK_FREQ')) * spirit:decode(id('MODELPARAM_VALUE.ADC_CONVERT_TIME'))) - 1)" into user parameter "ADC_CONVERT_CNT".
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n_i' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "((spirit:decode(id('MODELPARAM_VALUE.FPGA_CLOCK_FREQ')) * spirit:decode(id('MODELPARAM_VALUE.ADC_CYCLE_TIME'))) - 1)" into user parameter "ADC_CYCLE_CNT".
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "((spirit:decode(id('MODELPARAM_VALUE.FPGA_CLOCK_FREQ')) * spirit:decode(id('MODELPARAM_VALUE.ADC_CONVST_TIME'))) - 1)" into user parameter "ADC_CONVST_CNT".
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "((spirit:decode(id('MODELPARAM_VALUE.FPGA_CLOCK_FREQ')) * spirit:decode(id('MODELPARAM_VALUE.ADC_CONVERT_TIME'))) - 1)" into user parameter "ADC_CONVERT_CNT".
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n_i' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "((spirit:decode(id('MODELPARAM_VALUE.FPGA_CLOCK_FREQ')) * spirit:decode(id('MODELPARAM_VALUE.ADC_CYCLE_TIME'))) - 1)" into user parameter "ADC_CYCLE_CNT".
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "((spirit:decode(id('MODELPARAM_VALUE.FPGA_CLOCK_FREQ')) * spirit:decode(id('MODELPARAM_VALUE.ADC_CONVST_TIME'))) - 1)" into user parameter "ADC_CONVST_CNT".
+INFO: [IP_Flow 19-818] Not transferring value dependency attribute "((spirit:decode(id('MODELPARAM_VALUE.FPGA_CLOCK_FREQ')) * spirit:decode(id('MODELPARAM_VALUE.ADC_CONVERT_TIME'))) - 1)" into user parameter "ADC_CONVERT_CNT".
+CRITICAL WARNING: [IP_Flow 19-4633] [HDL Parser] VHDL port 'sclk' with 'buffer' mode is not supported for IP packaging; temporarily set the port direction to 'out'.
+CRITICAL WARNING: [IP_Flow 19-4633] [HDL Parser] VHDL port 'ss_n' with 'buffer' mode is not supported for IP packaging; temporarily set the port direction to 'out'.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'dma_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'dma_axis_1' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'dma_axis_2' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'dma_axis_3' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'dma_axis_4' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'dma_axis'.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset_n' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+WARNING: [IP_Flow 19-5661] Bus Interface 'clk' does not have any bus interfaces associated with it.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'dma_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_m_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_s_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_resetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'fifo_resetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'dma_axis'.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'dma_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_m_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_s_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_resetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'fifo_resetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'dma_axis'.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'dma_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_m_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_s_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_resetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'fifo_resetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'dma_axis'.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+INFO: [IP_Flow 19-5107] Inferred bus interface 'dma_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_m_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_s_axis' of definition 'xilinx.com:interface:axis:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'fifo_resetn' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'fifo_resetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'dma_axis'.
+WARNING: [IP_Flow 19-11770] Clock interface 'clk' has no FREQ_HZ parameter.
+INFO: [Coretcl 2-1213] Including run results for 'synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'Jupyter_processing_system7_0_1_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'Jupyter_rst_ps7_0_100M_3_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'Jupyter_axi_dma_0_1_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'Jupyter_xbar_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'Jupyter_axi_gpio_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'Jupyter_AD7091R_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'Jupyter_fifo_generator_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'Jupyter_edge_detector_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'Jupyter_AD7091R_1_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'Jupyter_fifo_generator_1_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'Jupyter_AD7091R_2_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'Jupyter_AD7091R_3_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'Jupyter_fifo_generator_1_1_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'Jupyter_fifo_generator_1_2_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'Jupyter_dac_top_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'Jupyter_dma_multiplexer_0_1_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'Jupyter_main_0_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'Jupyter_main_1_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'Jupyter_main_2_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'Jupyter_main_3_0_synth_1'
+INFO: [Coretcl 2-1213] Including run results for 'impl_1'
+INFO: [Coretcl 2-133] re-setting run 'Jupyter_processing_system7_0_1_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'Jupyter_rst_ps7_0_100M_3_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'Jupyter_axi_dma_0_1_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'Jupyter_xbar_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'Jupyter_axi_gpio_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'Jupyter_AD7091R_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'Jupyter_fifo_generator_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'Jupyter_edge_detector_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'Jupyter_AD7091R_1_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'Jupyter_fifo_generator_1_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'Jupyter_AD7091R_2_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'Jupyter_AD7091R_3_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'Jupyter_fifo_generator_1_1_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'Jupyter_fifo_generator_1_2_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'Jupyter_dac_top_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'Jupyter_dma_multiplexer_0_1_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'Jupyter_main_0_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'Jupyter_main_1_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'Jupyter_main_2_0_impl_1'...
+INFO: [Coretcl 2-133] re-setting run 'Jupyter_main_3_0_impl_1'...
+INFO: [Coretcl 2-1212] Importing remotely added design sources and verilog include files (if any)...
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'Jupyter_AD7091R_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'Jupyter_AD7091R_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'Jupyter_AD7091R_1_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'Jupyter_AD7091R_1_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'Jupyter_AD7091R_2_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'Jupyter_AD7091R_2_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'Jupyter_AD7091R_3_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'Jupyter_AD7091R_3_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'Jupyter_axi_dma_0_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'Jupyter_axi_dma_0_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'Jupyter_axi_gpio_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'Jupyter_axi_gpio_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'Jupyter_dac_top_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'Jupyter_dac_top_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'Jupyter_dma_multiplexer_0_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'Jupyter_dma_multiplexer_0_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'Jupyter_edge_detector_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'Jupyter_edge_detector_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'Jupyter_fifo_generator_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'Jupyter_fifo_generator_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'Jupyter_fifo_generator_1_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'Jupyter_fifo_generator_1_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'Jupyter_fifo_generator_1_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'Jupyter_fifo_generator_1_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'Jupyter_fifo_generator_1_2'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'Jupyter_fifo_generator_1_2'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'Jupyter_main_0_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'Jupyter_main_0_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'Jupyter_main_1_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'Jupyter_main_1_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'Jupyter_main_2_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'Jupyter_main_2_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'Jupyter_main_3_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'Jupyter_main_3_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'Jupyter_processing_system7_0_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'Jupyter_processing_system7_0_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'Jupyter_rst_ps7_0_100M_3'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'Jupyter_rst_ps7_0_100M_3'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'Jupyter_xbar_0'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'Jupyter_xbar_0'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'constrs_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+INFO: [filemgmt 20-334] All file(s) are already imported in fileset: 'utils_1'
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'utils_1'
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Thesis\DAS_v2\DAS\DAS.srcs\sources_1\new\dma_multiplexer.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [D:\Thesis\DAS_v2\DAS\DAS.srcs\sources_1\imports\sources_1\new\main.vhd:]

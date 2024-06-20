@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/KTH/IL2232_project/integrate/DASJupyter.xpr/DAS/DAS.srcs/sources_1/new/dma_multiplexer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dma_multiplexer'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/KTH/IL2232_project/integrate/DASJupyter.xpr/DAS/DAS.srcs/sim_1/imports/vivado/dma_multiplexer_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'DMA_Multiplexer_TB'

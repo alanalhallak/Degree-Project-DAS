@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Thu Jun  6 15:22:33 2024
+# Process ID: 21232
+# Current directory: C:/Users/SHMLab/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent23276
+# Log file: C:/Users/SHMLab/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/SHMLab/AppData/Roaming/Xilinx/Vivado\vivado.jou
+# Running On: Predator-Offset, OS: Windows, CPU Frequency: 2995 MHz, CPU Physical cores: 24, Host memory: 68475 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Thesis/DAS_v2/DAS/DAS.xpr
+update_compile_order -fileset sources_1
+update_module_reference {Jupyter_main_0_0 Jupyter_main_1_0 Jupyter_main_2_0 Jupyter_main_3_0}
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 32
+launch_runs impl_1 -to_step write_bitstream -jobs 32
+wait_on_run impl_1
+write_hw_platform -fixed -include_bit -force -file D:/Thesis/DAS_v2/DAS/das_june6.xsa
+archive_project {C:/Users/SHMLab/OneDrive - KTH/thesis/vivado/DAS_june6.xpr.zip} -temp_dir C:/Users/SHMLab/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-21232-Predator-Offset -force -include_config_settings
