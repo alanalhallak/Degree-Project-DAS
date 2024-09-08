@@ -1,7 +1,8 @@
-function echo_client_func_2(server_ip, server_port, data_length)
+function echo_client_func_4(server_ip, server_port, data_length)
     % Create TCP object
     t = tcpclient(server_ip, server_port);
-    start = 34;
+    start = 17;
+    start_tx = 100;
     %data_length = 1024*;
     % Initialize an array to hold the received data
     %received_data = [];
@@ -128,7 +129,7 @@ function echo_client_func_2(server_ip, server_port, data_length)
     % Plot the converted voltage values
     figure;
     subplot(4,1,1);
-    plot(adc1_values_to_voltage(start:end), 'DisplayName', 'ADC 1 to Voltage Conversion');
+    plot(adc1_values_to_voltage, 'DisplayName', 'ADC 1 to Voltage Conversion');
     %ylim([0 2.6]);
     hold on;
     
@@ -140,7 +141,7 @@ function echo_client_func_2(server_ip, server_port, data_length)
     hold off;
     
     subplot(4,1,2);
-    plot(adc2_values_to_voltage(start:end), 'DisplayName', 'ADC 2 to Voltage Conversion');
+    plot(adc2_values_to_voltage, 'DisplayName', 'ADC 2 to Voltage Conversion');
     %ylim([0 2.6]);
     hold on;
     
@@ -152,7 +153,7 @@ function echo_client_func_2(server_ip, server_port, data_length)
     hold off;
 
     subplot(4,1,3);
-    plot(adc3_values_to_voltage(start:end), 'DisplayName', 'ADC 3 to Voltage Conversion');
+    plot(adc3_values_to_voltage, 'DisplayName', 'ADC 3 to Voltage Conversion');
     %ylim([0 2.6]);
     hold on;
     
@@ -164,7 +165,7 @@ function echo_client_func_2(server_ip, server_port, data_length)
     hold off;
 
     subplot(4,1,4);
-    plot(adc4_values_to_voltage(start:end), 'DisplayName', 'ADC 4 to Voltage Conversion');
+    plot(adc4_values_to_voltage, 'DisplayName', 'ADC 4 to Voltage Conversion');
     %ylim([0 2.6]);
     hold on;
     
@@ -176,4 +177,12 @@ function echo_client_func_2(server_ip, server_port, data_length)
     hold off;
     % Clean up
     clear t;
+
+    % save adc1.mat adc1_values_to_voltage
+    % save adc2.mat adc2_values_to_voltage
+    % save adc3.mat adc3_values_to_voltage
+    % save adc4.mat adc4_values_to_voltage
+
+    data0814 = [adc1_values_to_voltage' adc2_values_to_voltage' adc3_values_to_voltage' adc4_values_to_voltage'];
+    save data0814_1.mat data0814
 end
